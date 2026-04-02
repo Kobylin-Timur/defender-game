@@ -1,0 +1,32 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "browser based game",
+  "keywords": [
+    "game"
+  ],
+  "homepage": "https://github.com/Kobylin-Timur/defender-game#readme",
+  "bugs": {
+    "url": "https://github.com/Kobylin-Timur/defender-game/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kobylin-Timur/defender-game.git"
+  },
+  "license": "ISC",
+  "author": "kobylin-t",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+  "build": "babel src -d dist",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2"
+  },
+  "dependencies": {
+    "core-js": "^3.49.0"
+  }
+}
